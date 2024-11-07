@@ -19,8 +19,8 @@ config:
       # clientSecretSecretKey is the key in the k8s secret, default: google-client-secret
       # clientSecretSecretKey:
       domain:
-  encryptionKey:
-  # encryptionKeySecretName is the name of the secret where the encryption key is stored (can be used instead of encryptionKey)
+#  encryptionKey:
+  encryptionKeySecretName: retool-encryption-key
   # encryptionKeySecretName:
   # encryptionKeySecretKey is the key in the k8s secret, default: encryption-key
   # encryptionKeySecretKey:
