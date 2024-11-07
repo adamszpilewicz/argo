@@ -12,9 +12,9 @@ spec:
       helm:
         valueFiles:
           - '$values/values.yaml'
-    - repoURL:
-        ref: values
-        targetRevision: master
+    - repoURL: https://github.com/adamszpilewicz/argo
+      ref: values
+      targetRevision: master
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: my-namespace
